@@ -30,9 +30,12 @@
 
     <form action="index.php" method="GET">
         <input type="text" name="change" placeholder="parola da sostituire">
-        <input type="text" name="text" placeholder="scrivi il testo">
+      
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="scrivi il testo"></textarea>
         <button type="submit">invia</button>
+        <button type="reset">cancella</button>
     </form>
+
 </main>    
 
 </body>
