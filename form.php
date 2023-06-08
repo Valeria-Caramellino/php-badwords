@@ -25,6 +25,7 @@
 <body>
 
 <main>
+    <!--il name è ciò che portiamo dall'altra pagina-->
     <h1>Inserisci frase e parola da sostituire</h1>
 
     <form action="index.php" method="GET">

@@ -24,7 +24,7 @@
 <body>
 
     <?php
-    //variabili
+    // formo le variabili
 
     $parolaChange = $_GET ["change"];
     $Ptext = $_GET["text"];
@@ -56,6 +56,9 @@
             </h2>
            
             <p>
+                <!--la frase cambiata str_ireplace è composto da cosa devi cambiare , come la devi cambiare , dove la devi cambiare-->
+                <!--str_ireplace non fa differenza da lettere maiuscole o minuscole , echo stampa in schermo , 
+                ucfirst mette sempre la lettera maiuscola a inizio frase-->
 
                 <?php
                     $FraseCambiata = str_ireplace($parolaChange, '***', $Ptext);
